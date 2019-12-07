@@ -5,6 +5,9 @@
 > In progress
 #### Environnement
 * Python
+    pip3 install pip
+    pip3 install --upgrade pip
+
 * Web
 * Java
 
