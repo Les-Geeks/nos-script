@@ -1,7 +1,12 @@
-# centratilisation
-
+# Centratilisation
+> Tous les scripts en phase de développement se trouve ici
 
 ## For use script
-
+> In progress
 #### Environnement
-* Python 
+* Python
+* Web
+* Java
+
+#### Production
+
