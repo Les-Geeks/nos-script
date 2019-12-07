@@ -1,7 +1,7 @@
 # nos-script
 
-#Centralisation de scripts
-#Table des matières
+# Centralisation de scripts
+# Table des matières
 
 
 Chapitre 1
