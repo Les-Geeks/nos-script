@@ -1,6 +1,30 @@
-# nos-script
+# Nos Script
 
-# Centralisation de scripts
+## Centralisation de scripts
+
+La centralisation de script a pour but de réferencer un maximum d'information concernant la conception d'algorithme ou divers besoin technologique avec les collaborateurs 
+
+---
+
+## Informations Importante
+
+> [name=metalfrags]
+>Pour les developpeurs qui participe au project.
+> L'arborescense devra suivre un ordre chronolique
+
+>**Important a respecté pour le process**
+>>**Par Syteme d'exploitation** --> **Par Technologies** --> Et par langage de programmation  
+---
+
+
+---
+
+> ### **Par systeme d'exploitation**
+Par technologies
+* *     Par Langage de programmation 
+
+Nous allons essayé d'optimiser au mieu la structure de la documentation afin que celle-ci soit la plus détaillé possible.
+    
 ## Table des matières
 
 ### Script System
