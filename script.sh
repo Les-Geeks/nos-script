@@ -18,8 +18,6 @@ function new_theme () {
     # opérateurs -gt, -ge, -eq, -ne, -lt ou -le (pour >, >=, =, !=, <= ou <)
     if [[ $lenghtChaine -gt 0 ]]; then
 
-        echo 'test 2'
-
         cd ~/Downloads/ && git clone https://github.com/adi1090x/slim_themes.git 
 
         cd slim_themes/themes && sudo mv $theme /usr/share/slim/themes/
