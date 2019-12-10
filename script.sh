@@ -11,10 +11,11 @@
 
 cd 
 
-theme = ''
-longueur=${#theme}
+theme=""
+string_length=${#theme}
 
-if ($longueur < 0); then
+# opérateurs -gt, -ge, -eq, -ne, -lt ou -le (pour >, >=, =, !=, <= ou <)
+if [[ $string_length -lt 0 ]]; then
 
     PS3="Choix du theme : "
 
