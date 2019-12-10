@@ -16,7 +16,7 @@ cd
 function new_theme () {
     lenghtChaine=${#theme}
     # opérateurs -gt, -ge, -eq, -ne, -lt ou -le (pour >, >=, =, !=, <= ou <)
-    if [[ $lenghtChaine -lt 1 ]]; then
+    if [[ $lenghtChaine -gt 0 ]]; then
 
         echo 'test 2'
 
@@ -26,6 +26,7 @@ function new_theme () {
 
         sudo sed -i -r "s/.*current_theme.*/current_theme ${theme}/g" /etc/slim.conf
 
+
         echo 'Installation terminée redemarer le pc !'
     fi
 
@@ -33,6 +34,7 @@ function new_theme () {
 
 
 ########## Main ##########
+
 
 PS3="Choix du theme : "
 
