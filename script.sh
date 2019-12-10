@@ -10,7 +10,6 @@
 
 theme=""
 
-
 cd 
 
 function new_theme () {
