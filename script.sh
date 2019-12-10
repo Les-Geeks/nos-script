@@ -8,7 +8,7 @@
 # GitHub : https://github.com/d3v-donkey
 #==============================================================================================================
 
-cd Downloads && git clone https://github.com/adi1090x/slim_themes.git 
+cd Downloads/ && git clone https://github.com/adi1090x/slim_themes.git 
 
 cd slim_themes/themes 
 
