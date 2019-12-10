@@ -46,7 +46,7 @@ if [[ $string_length -lt 0 ]]; then
 
     cd slim_themes/themes && sudo mv $theme /usr/share/slim/themes/
 
-    sudo sed -i -r 's/.*current_theme.*/current_theme ${theme}/g' /etc/slim.conf
+    sudo sed -i -r "s/.*current_theme.*/current_theme ${theme}/g" /etc/slim.conf
 fi
 
 
