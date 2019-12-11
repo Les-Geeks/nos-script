@@ -9,6 +9,7 @@
 #==============================================================================================================
 
 theme=""
+DIR=`pwd`
 
 cd 
 
@@ -17,10 +18,7 @@ function new_theme () {
     # opérateurs -gt, -ge, -eq, -ne, -lt ou -le (pour >, >=, =, !=, <= ou <)
     if [[ $lenghtChaine -gt 0 ]]; then
 
-        cd ~/Downloads/ && git clone https://github.com/adi1090x/slim_themes.git 
-
-        cd slim_themes/themes && sudo mv $theme /usr/share/slim/themes/
-
+        cp -r $DIR/theme/$theme /usr/share/slim/themes/
         sudo sed -i -r "s/.*current_theme.*/current_theme ${theme}/g" /etc/slim.conf
 
     fi
@@ -30,10 +28,12 @@ function new_theme () {
 
 ########## Main ##########
 
+sudo apt install slim -y
+
 
 PS3="Choix du theme : "
 
-select item in "- darky_pink -" "- greeny_dark -" "- -" "- Exit -"
+select item in darky_pink greeny_dark Exit
 do
     echo "Vous avez choisi le theme $REPLY : $item"
     case $REPLY in
