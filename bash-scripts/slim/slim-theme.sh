@@ -18,7 +18,7 @@ function new_theme () {
     # opérateurs -gt, -ge, -eq, -ne, -lt ou -le (pour >, >=, =, !=, <= ou <)
     if [[ $lenghtChaine -gt 0 ]]; then
 
-        cp -r $DIR/theme/$theme /usr/share/slim/themes/
+        cp -r "$DIR"/theme/$theme /usr/share/slim/themes/
         sudo sed -i -r "s/.*current_theme.*/current_theme ${theme}/g" /etc/slim.conf
 
     fi
