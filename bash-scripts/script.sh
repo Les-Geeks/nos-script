@@ -23,8 +23,6 @@ function new_theme () {
 
         sudo sed -i -r "s/.*current_theme.*/current_theme ${theme}/g" /etc/slim.conf
 
-
-        echo 'Installation terminée redemarer le pc !'
     fi
 
 }
@@ -43,13 +41,13 @@ do
                     
                 theme="darky_pink"
                 new_theme
-                exit 0
+                break
                 ;;
             2)
                         
                 theme="greeny_dark"
                 new_theme
-                exit 0
+                break
                 ;;
             3)
                 echo "Fin du script"
@@ -60,6 +58,8 @@ do
                 ;;
         esac
 done
+
+echo 'Installation terminée redemarer le pc !'
 
 
 
